@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haulwyn | The operating system for moving companies</title>
+<meta name="description" content="Haulwyn runs a moving company from first quote to final review: quoting, booking, dispatch, crew app, customer portal, payments and automation in one system.">
+<link rel="canonical" href="https://haulwyn.com/">
+<meta property="og:title" content="Haulwyn | The operating system for moving companies">
+<meta property="og:description" content="Quote, book, dispatch, move, invoice and review in one system built for movers.">
+<meta property="og:url" content="https://haulwyn.com/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0a1f44; --ink:#0b1230; --steel:#5b6478; --gold:#c9a227;
+    --paper:#ffffff; --off:#f6f5f1; --line:rgba(11,18,48,.12);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Inter',sans-serif;color:var(--ink);background:var(--paper);-webkit-font-smoothing:antialiased;line-height:1.55}
+  h1,h2,h3{font-family:'Oswald',sans-serif;font-weight:600;letter-spacing:.005em;line-height:1.15}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+  header{position:sticky;top:0;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-family:'Oswald',sans-serif;font-size:24px;font-weight:600;color:var(--navy);text-decoration:none;letter-spacing:.04em}
+  .logo span{color:var(--gold)}
+  .nav-links{display:flex;gap:10px;align-items:center}
+  .btn{display:inline-block;padding:11px 20px;border-radius:8px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid transparent;cursor:pointer}
+  .btn-primary{background:var(--navy);color:#fff}
+  .btn-primary:hover{background:#13306a}
+  .btn-ghost{border-color:var(--line);color:var(--navy);background:#fff}
+  .hero{background:var(--navy);color:#fff;padding:88px 0 96px}
+  .eyebrow{color:var(--gold);font-weight:600;font-size:13px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px}
+  .hero h1{font-size:clamp(34px,6vw,58px);max-width:760px}
+  .hero p{font-size:clamp(17px,2.2vw,20px);color:rgba(255,255,255,.82);max-width:640px;margin:20px 0 32px}
+  .hero .btn-primary{background:var(--gold);color:var(--ink)}
+  .hero .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.35)}
+  .cta-row{display:flex;gap:12px;flex-wrap:wrap}
+  section{padding:80px 0}
+  section h2{font-size:clamp(26px,4vw,36px);color:var(--navy);margin-bottom:12px}
+  .lead{color:var(--steel);font-size:17px;max-width:680px;margin-bottom:40px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+  .card{border:1px solid var(--line);border-radius:12px;padding:24px;background:#fff}
+  .card h3{font-size:19px;color:var(--navy);margin-bottom:8px}
+  .card p{color:var(--steel);font-size:15px}
+  .alt{background:var(--off)}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-weight:600;color:var(--navy)}
+  .flow span{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:14px}
+  .flow i{color:var(--gold);font-style:normal}
+  .demo{text-align:center}
+  .demo .lead{margin:0 auto 28px}
+  footer{border-top:1px solid var(--line);padding:28px 0;color:var(--steel);font-size:14px}
+  footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px}
+  @media (max-width:560px){.nav-links .btn-ghost{display:none}.hero{padding:64px 0 72px}section{padding:60px 0}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="logo" href="/">HAUL<span>WYN</span></a>
+    <div class="nav-links">
+      <a class="btn btn-ghost js-signin" href="#">Sign in</a>
+      <a class="btn btn-primary js-demo" href="#demo">Request a demo</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Built for moving companies</div>
+      <h1>One system for the whole move, from first quote to final review.</h1>
+      <p>Haulwyn replaces the CRM, dispatch board, crew app, customer portal, invoicing and review tools a moving company usually stitches together.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary js-demo" href="#demo">Request a demo</a>
+        <a class="btn btn-ghost" href="#what">See what it does</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="what">
+    <div class="wrap">
+      <h2>Every role, one database</h2>
+      <p class="lead">Your office, sales team, crews and customers each get their own view of the same job. Nothing gets re-typed between tools.</p>
+      <div class="grid">
+        <div class="card"><h3>Customers</h3><p>Instant quotes from your pricing, online booking against real truck availability, e-signed estimates, card deposits, and a private move portal with status, messages and documents.</p></div>
+        <div class="card"><h3>Sales</h3><p>Lead pipeline, automatic follow-up tasks, an estimate builder with room-by-room volume, and reporting on win rate, lead source and speed to contact.</p></div>
+        <div class="card"><h3>Office and dispatch</h3><p>A daily briefing, a dispatch calendar that blocks double-booked trucks and crews, and a nightly check for expiring certifications and insurance before move day.</p></div>
+        <div class="card"><h3>Crews</h3><p>A phone-first move-day app: clock-in, QR scanning of items and boxes, condition reports with photos, and offline capture that syncs when signal returns.</p></div>
+        <div class="card"><h3>Money</h3><p>Estimates, invoices, receipts and Bill of Lading, card payments and refunds through Stripe, storage billing, and profit and loss for every job.</p></div>
+        <div class="card"><h3>Automation</h3><p>Move-day reminders, quote follow-ups, review requests, re-engagement and compliance alerts run on schedule, with protection against duplicate messages.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>How a job flows</h2>
+      <p class="lead">One record carries the job from the first click to the review request.</p>
+      <div class="flow">
+        <span>Quote</span><i>&rarr;</i><span>Book and e-sign</span><i>&rarr;</i><span>Deposit</span><i>&rarr;</i><span>Dispatch</span><i>&rarr;</i><span>Move day</span><i>&rarr;</i><span>Invoice</span><i>&rarr;</i><span>Review</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="demo" class="demo">
+    <div class="wrap">
+      <h2>See it on your own jobs</h2>
+      <p class="lead">Haulwyn is onboarding its first moving companies. Book a walkthrough and we will show you the full flow.</p>
+      <a class="btn btn-primary js-demo" href="#demo">Request a demo</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="yr"></span> Haulwyn</span>
+    <a class="js-signin" href="#">Staff sign in</a>
+  </div>
+</footer>
+
+<script>
+  // Founder settings. Leave empty until real values exist; the page hides links that have no target.
+  const DEMO_EMAIL  = '';   // e.g. 'demo@haulwyn.com'
+  const SIGN_IN_URL = '';   // set once the app runs on its final address
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  document.querySelectorAll('.js-demo').forEach(a => {
+    if (DEMO_EMAIL) a.href = 'mailto:' + DEMO_EMAIL + '?subject=' + encodeURIComponent('Haulwyn demo request');
+  });
+  document.querySelectorAll('.js-signin').forEach(a => {
+    if (SIGN_IN_URL) a.href = SIGN_IN_URL; else a.style.display = 'none';
+  });
+</script>
+</body>
+</html>
